@@ -10,6 +10,7 @@ import { Counter } from "./Counter";
 // 4. add up/down buttons in each counter in the list to re-order the counters
 // Bonus - maintain the state of the counters when "navigating" back and forth  between the components
 
+
 function App() {
   const [currentTab, setCurrentTab] = useState<"synced" | "list">("synced");
 
